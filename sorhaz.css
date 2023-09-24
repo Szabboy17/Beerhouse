@@ -1,0 +1,288 @@
+
+header {
+    font-size: 65px;
+    font-style: italic;
+    display: flex;
+    background-image: url(scale.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    max-width: 1200px;
+    border: 1px #fff;
+    border-radius: 5px;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: flex-end;
+    align-items: stretch;
+    
+}
+
+.phar {
+    margin-left: -20px;
+    border: 2px black;
+    background-color: grey;
+   font-style: italic;
+}
+    
+
+
+.nav {
+    background-color: white;
+    font-weight: 300;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-bottom: 40px;
+    
+}
+
+.container {
+    width: 100vw;
+    max-width: 1200px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(125, 73, 23, 1) 100%);
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: 1px #fff;
+    border-radius: 5px;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem black;
+    gap: 20px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.dobozok {
+    width: 390px;
+    height: 500px;
+    display: inline-block;
+    align-items: first baseline;
+    text-align: center;
+    margin: 0 auto;
+
+
+
+
+}
+
+.par {
+    height: 300px;
+    overflow: hidden;
+
+
+}
+
+.photo {
+    width: 300px;
+    height: 200px;
+}
+
+.people {
+    display: flex;
+    height: 350px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: flex-end;
+
+}
+
+section {
+    display: flex;
+    max-width: 1200px;
+    max-height: 800px;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    background-color: darkred;
+    border-radius: 5px;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem black;
+
+}
+
+.h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 97px;
+    font-size: 50px;
+    border: 2px black;
+    background-color: grey;
+    max-width: 1109px;
+    border: 1px #fff;
+    border-radius: 5px;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem black;
+  
+}
+
+.h4text {
+    padding-left: 105px;
+}
+
+section p {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 141px;
+}
+
+footer{
+    max-width: 1200px;
+    height:300px;
+    font-size:45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+a{
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+}
+
+.copy{
+    font-size: 9px;
+}
+
+.readmorebtn{
+    margin-bottom: 150px;
+}
+
+.flags{
+    width: 118px;
+    height: 40px;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divsorb{
+    margin-right: 384px;
+}
+
+
+@media screen and (max-width:500px) {
+    header{
+        max-width: 490px;
+    }
+
+    .divsorb{
+        margin-right: 29px;
+    }
+
+    section{
+        display: flex;
+    max-width: 1200px;
+    max-height: 1875px;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: darkred;
+    border-radius: 5px;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem black;
+    }
+    footer{
+        max-width: 177px;
+    height: 300px;
+    font-size: 45px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    }
+
+    .copy{
+        margin-left: 590px;
+    }
+
+    nav{
+
+        background-color: white;
+    font-weight: 300;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+
+}
+
+@media screen and (max-width:447px) {
+    header{
+        max-width: 490px;
+    }
+    nav{
+
+        background-color: white;
+    font-weight: 300;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-bottom: 40px;
+    flex-direction: column;
+
+
+    }
+
+    .copy{
+        margin-left: 470px;
+    }
+
+    .container{
+        width: 330px;
+      }
+  
+  .dobozok{
+      width: 270px;
+      font-size: 16px;
+      }
+
+    
+}
+
+@media screen and (max-width:435px) {
+    .h4text{
+        font-size: 30px;
+    }
+    }
+
+@media screen and (max-width:390px) {
+    .container{
+      width: 330px;
+    }
+
+.dobozok{
+    width: 270px;
+    font-size: 16px;
+    }
+    .divsorb{
+        margin-right: 50px;
+    }
+    }

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sörház</title>
+    <link rel="stylesheet" href="sorhaz.css">
+    <script src="enter.js"></script>
+</head>
+
+<body>
+    <header id="top" class="preheader">
+        <div class="divsorb"><p id="phar" class="phar"> A Sörbár </p></div>
+        <div class="flags">
+           <img onclick="ClickHun()" width="40px" height="35px" src="magyar.jpg" alt="magyar zászló">
+            <img onclick="ClickEn()" width="40px" height="35px" src="gbflag.jpg" alt="brit zászló">
+        </div>
+    </header>
+
+    <nav class="nav">
+        <a id="fooldal" href="sorhaz.html">Főoldal</a>
+        <a id="rolunk" href="rolunk.html">Rólunk</a>
+        <a id="termekek" href="termekek.html">Termékek</a>
+        <a id="kapcsolat" href="kapcsolat.html">Kapcsolat</a>
+    </nav>
+    <div class="container">
+        <div class="dobozok">
+            <h3>Paulaner Münchener Hell lager</h3>
+            <img onclick="Click()" src="paulaner.jpg"  id="idpau" onmouseover="style.width='350px'"
+                onmouseout="style.width='250px'" alt="paulaner sör" style="cursor: pointer;">
+            <p id="pauen" class="par" onmousedown="myFunction(this,'red')" onmouseup="myFunction(this,'white')">A bajorok
+                fellegvárában készült tradícionális főzet. Nemzedékek hagyományozták egymásra e nemesen telt
+                ízű sör ősi receptjét. <button type="button" onclick="document.getElementById('demo').style.display='block'">Mutass többet...</button> <span id="demo" style="display:none"> Különleges minősége, finoman fűszerezett, telt íze avatta a Münchner Premium
+                    Lagert Bajorország egyik legkedveltebb sörévé. Kiegyensúlyozott aromájának köszönhetően bármely ételhez
+                    kiválóan fogyasztható. <button type="button" onclick="document.getElementById('demo').style.display='none'">Mutass kevesebbet!</button></span>  </p>
+
+           
+        </div>
+        <div class="dobozok">
+            <h3>Warsteiner Brewers</h3>
+            <img onclick="Click1()" src="Warsteiner.jpg" onmouseover="style.width='350px'"
+            onmouseout="style.width='250px'" alt="Warsteiner sör" style="cursor: pointer;" >
+            <p id="warste" class="par" onmousedown="myFunction(this,'red')" onmouseup="myFunction(this,'white')">Szüretlen Kellerbier, aromás kellemes keserűség, finoman kiegyensúlyozott karamellás és mézes
+                jegyek kíséretében.
+                Egy különleges aroma komló, a "Brewers Gold" adja egyedi karakterét. <button type="button" onclick="document.getElementById('demo1').style.display='block'">Mutass többet...</button> <span id="demo1" style="display:none">
+                Ez a sörkülönlegesség is azt mutatja, hogy a modern ízlésnek nem kell kompromisszumot kötnie a
+                hagyományos sörfőzéssel.
+                A Warsteiner Brewers Gold tökéletes választás minden alkalomra!
+                Alkohol 5,2% <button type="button" onclick="document.getElementById('demo1').style.display='none'">Mutass kevesebbet!</button></span></p>
+        </div>
+
+        <div class="dobozok">
+            <h3>Cornelissen Bosbier</h3>
+            <img onclick="Click2()" src="Cornelissen.jpg" onmouseover="style.width='350px'"
+            onmouseout="style.width='250px'" alt="Cornelissen sör" style="cursor: pointer;">
+            <p id="corne" class="par" onmousedown="myFunction(this,'red')" onmouseup="myFunction(this,'white')">Az autentikus belga pils és az áfonya tökéletes házassága.
+                Mitől olyan különleges?
+                Kifinomult utóízétől, amely a különleges főzési eljárás eredménye.</p>
+        </div>
+
+        <div class="dobozok">
+            <h3>König Ludwig Dunkel</h3>
+            <img onclick="Click3()" src="König.jpg" onmouseover="style.width='350px'"
+            onmouseout="style.width='250px'" alt="Dunkel sör" style="cursor: pointer;">
+            <p id="konigl" class="par" onmousedown="myFunction(this,'red')" onmouseup="myFunction(this,'white')">Németország egyik leghíresebb barna söre.
+                A pörkölt árpamaláta a sör jellegzetes színét adja, valamint karamell szerű ízt kölcsönöz neki.</p>
+        </div>
+
+        <div class="dobozok">
+            <h3>Limburgse Witte</h3>
+            <img onclick="Click4()" src="Limburgse.jpg" onmouseover="style.width='350px'"
+            onmouseout="style.width='250px'" alt="Limburgse sör" style="cursor: pointer;">
+            <p id="limburse" class="par" onmousedown="myFunction(this,'red')" onmouseup="myFunction(this,'white')">Limburgse Witte Peach & Mango 0,33L eldobható üveges
+                Belga kézműves búzasör Mango és Barack gyümölcsösséggel megbolondítva.</p>
+        </div>
+
+        <div class="dobozok">
+            <h3>König Ludwig Hefe</h3>
+            <img onclick="Click5()" src="Ludwig.jpg" onmouseover="style.width='350px'"
+            onmouseout="style.width='250px'" alt="Ludwig sör" style="cursor: pointer;">
+            <p id="hefe" class="par" onmousedown="myFunction(this,'red')" onmouseup="myFunction(this,'white')">König Ludwig Hefe Weissbier szüretlen búzasör 0,5l eldobható üvegben.
+                A királyi búzasör!
+                Aranysárga, szüretlen, enyhén malátás búzasör gyümölcsös karakterrel.</p>
+        </div>
+
+    </div>
+
+    <div class="h4">
+        <h4 id="empl" class="h4text">Munkatársaink</h4>
+    </div>
+    <section class="section">
+
+        <div class="people">
+            <p id="kissa" class="p.nevek">Kiss András <br> Felszolgáló</p>
+            <img class="photo" src="pexels-antoni-shkraba-4485411.jpg" alt="bartender">
+        </div>
+
+        <div  class="people">
+            <p id="kissj" class="p.nevek">Kiss Julianna <br> Felszolgáló</p>
+            <img class="photo" src="pexels-andrea-piacquadio-3768085.jpg"bartender">
+        </div>
+
+        <div class="people">
+            <p id="nagys" class="p.nevek">Nagy Sándor <br> Felszolgáló</p>
+            <img class="photo" src="pexels-rdne-stock-project-10375843.jpg" alt="bartender">
+        </div>
+
+        <div class="people">
+            <p id="juri" class="p.nevek">Jurásek Ildikó<br> Csapos</p>
+            <img class="photo" src="pexels-andrea-piacquadio-3752747.jpg" alt="bartender">
+        </div>
+
+        <div class="people">
+            <p id="kovj" class="p.nevek">Kovács János <br> Pohárszedő</p>
+            <img class="photo" src="pexels-jiban-game-4818176.jpg" alt="bartender">
+        </div>
+
+    </section>
+<br>
+    <div>
+        <a id="totop" href="#top">Ugrás az oldal tetejére</a>
+
+    </div>
+    <footer>
+        <p style="justify-content: center; margin-left: 250px;">BP. Sörházak Kft.</p>
+
+        <p class="copy">&copy;2023</p>
+
+    </footer>
+
+</body>
+
+</html>
